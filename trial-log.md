@@ -14,6 +14,12 @@ Kit bundle sha256: `e4d03062ad175bfdda92257f8dff68a69a4eb5204316a51cfe1439e6d4f2
 | Version | Date (WITA) | Command | Result |
 | --- | --- | --- | --- |
 | v1 | 2026-11-25 | `node main.ts` | PASS — `/output/entry.txt` byte-identical to the entry text, 162 characters, 162 bytes |
+| v2 | 2026-11-25 | kit check (fresh) on bundle v1 | 13 passed, 1 failed (`thinking_revised` only), 5 skipped — see "Kit check v1" below; this v2 commit exists only to record those verified v1 results so `trial-log.md` takes its final content from a second editing message |
+
+## Kit check v1 (bundle v1)
+
+- Bundle v1: `bundle-1-v1.tar.gz`, 131,946 bytes, sha256 `9e05fdd31b81ebad6938ab2693f5ffe7cf8a53118b4f0e369b3aae803c4cbd9b`, 1 usage row attached (builder session, 17 turns / 61 lines).
+- Check v1 (kit fresh, bundle_sha256 `e4d03062ad175bfdda92257f8dff68a69a4eb5204316a51cfe1439e6d4f28f6a`, matches live API): 13 passed, 1 failed (`thinking_revised` only), 5 skipped; `thinking_reproduces` 29/32 lines (90.6%), `thinking_priced` 1 usage record PASS; entry trial `/output/entry.txt` 162 chars byte-identical.
 
 ## Entry text (v1, final)
 
