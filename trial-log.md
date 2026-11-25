@@ -24,3 +24,9 @@ Kit bundle sha256: `e4d03062ad175bfdda92257f8dff68a69a4eb5204316a51cfe1439e6d4f2
 ## Entry text (v1, final)
 
 Every holiday the six o'clock train left while I was still counting the carriages, and I never once reached the last one before the tail lights turned the corner.
+
+## Submit (coordinator, 25 Nov 2026, 16:57 WITA)
+- Bundle v2: bundle-1-v2.tar.gz, 158,696 bytes, sha256 d82b97be63a78644aac025dd3148099139beca457835cd2b96713e6fb4a0df6d (builder + fix sessions, 2 usage rows).
+- Check v2: 14 passed / 0 failed, 5 skipped; thinking_reproduces 33/36 (91.6%).
+- Submit: HTTP 202, submission ID 01a211ec-db1b-74e1-894a-0cc689f66ccf, server time 2026-11-25T08:57:44.968Z, commit f23979a3ce5c4c56be4aa88ebe1d66d62f0b6629.
+- Server status: stage checked, 27 pass / 0 fail / 2 skip (thinking_on_task, thinking_fresh), round 1 of 3, grading under way; R1 cutoff 26 Nov 02:19 WITA. Claim code kept only in the local claim-codes file, never in this repo.
